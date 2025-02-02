@@ -40,3 +40,5 @@ yarn-error.log*
 next-env.d.ts
 
 .idea
+/.vs
+/.vs/slnx.sqlite
