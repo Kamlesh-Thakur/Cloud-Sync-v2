@@ -1,8 +1,7 @@
 'use client';
 
-import DevelopmentTable from 'components/admin/data-tables/DevelopmentTable';
+import FileDisplayTable from 'components/uploaded-files/data-tables/FileDisplayTable';
 import { useEffect, useState } from 'react';
-import tableDataDevelopment from 'variables/data-tables/tableDataDevelopment';
 
 const Dashboard = () => {
   const [files, setFiles] = useState([]);
@@ -35,7 +34,7 @@ const Dashboard = () => {
   return (
     <div>
       <div className="mt-5 grid h-full">
-        <DevelopmentTable tableData={files} />
+        <FileDisplayTable tableData={files} />
       </div>
     </div>
   );
